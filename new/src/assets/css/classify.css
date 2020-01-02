@@ -1,0 +1,38 @@
+.header{
+    display:flex;
+    justify-content:center;
+    align-items :center;
+    position :relative;
+    top :0;
+    width :100%;
+    border-bottom: solid 0.1px  #dddddd ;
+    
+}
+.parcel{
+    display: flex; 
+    font-size  :18px;
+    justify-content :center;
+     
+}
+.parcel p{
+    padding :15px 15px 15px 10px;
+    font-size: 14px;
+}
+.check{
+    position :absolute;
+    top :10px;
+    right  :15px ;
+}
+.check div{
+    float: right ;
+    width :25px;
+    height :25px;
+    background :red;
+}
+.classify{
+    /* color: blueviolet; */
+}
+.pick{
+    /* color: blueviolet; */
+
+}
